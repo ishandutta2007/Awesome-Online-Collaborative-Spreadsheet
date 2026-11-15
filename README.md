@@ -30,7 +30,7 @@
   - [🏢 Overview Table (Sorted by Company Size)](#-overview-table-sorted-by-company-size)
   - [🔍 Platform Deep Dives](#-platform-deep-dives)
 - [🟩 Open-Source Software](#-open-source-software)
-  - [⭐ Overview Table (Sorted by GitHub Stars)](#-overview-table-sorted-by-github-stars)
+  - [⭐ Overview Table (Sorted by GitHub_Stars)](#-overview-table-sorted-by-github-stars)
   - [🔬 Repository Details](#-repository-details)
 - [📊 Feature Matrix & Comparison at a Glance](#-feature-matrix--comparison-at-a-glance)
 - [🌟 Star History](#-star-history)
@@ -102,90 +102,90 @@ Commercial, cloud-hosted collaborative spreadsheet platforms offering enterprise
 
 Self-hosted, transparent, community-driven online collaborative spreadsheet engines and database hybrids 🛡️.
 
-### ⭐ Overview Table (Sorted by GitHub Stars)
+### ⭐ Overview Table (Sorted by GitHub_Stars)
 
-| Repository | Stars | Stack | License | Description |
+| Repository | GitHub_Stars | Stack | License | Description |
 |:---|:---:|:---|:---|:---|
-| **[NocoDB](https://github.com/nocodb/nocodb)** | [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | Node.js / Vue.js / TypeScript | AGPL-3.0 | Turns any relational database (PostgreSQL, MySQL, SQLite, SQL Server) into a collaborative smart spreadsheet 🗄️. |
-| **[Nextcloud Server (Office)](https://github.com/nextcloud/server)** | [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | PHP / JavaScript / Collabora | AGPL-3.0 | Self-hosted sovereign productivity suite with full spreadsheet editing, file sharing, and role-based permissions ☁️. |
-| **[Univer](https://github.com/dream-num/univer)** | [![GitHub stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers) | TypeScript / Canvas / React | Apache-2.0 | Extensible open-source office engine powering high-performance collaborative spreadsheets, docs, and slides ⚡. |
-| **[Teable](https://github.com/teableio/teable)** | [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Super-fast real-time collaborative no-code database built natively on PostgreSQL with full spreadsheet fidelity 🚀. |
-| **[Grist Core](https://github.com/gristlabs/grist-core)** | [![GitHub stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers) | Python / TypeScript / SQLite | Apache-2.0 | Modern relational spreadsheet with full Python formula support, granular access control, and self-hosted privacy 🐍. |
-| **[ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)** | [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | C++ / JavaScript / Node.js | AGPL-3.0 | Enterprise-grade online office suite offering high-fidelity XLSX collaborative spreadsheet co-editing 🏢. |
-| **[Baserow](https://github.com/baserow/baserow)** | [![GitHub stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | Python / Django / Vue.js | MIT (Open-Core) | Open-source no-code database and Airtable alternative with unlimited rows and enterprise compliance 🗃️. |
-| **[Collabora Online](https://github.com/CollaboraOnline/online)** | [![GitHub stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers) | C++ / JavaScript | MPL-2.0 | Powerful collaborative online office suite based on LibreOffice technology, supporting Calc spreadsheets 📝. |
-| **[EtherCalc](https://github.com/audreyt/ethercalc)** | [![GitHub stars](https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white)](https://github.com/audreyt/ethercalc/stargazers) | JavaScript / Node.js / Redis | CPAL-1.0 | Pioneer real-time collaborative web spreadsheet where multiple users can simultaneously edit cells 🧮. |
-| **[Casual Sheets](https://github.com/CasualOffice/sheets)** | [![GitHub stars](https://img.shields.io/github/stars/CasualOffice/sheets?style=social&color=white)](https://github.com/CasualOffice/sheets/stargazers) | TypeScript / Univer OSS / Fastify | Apache-2.0 | Excel-flavored web spreadsheet with real-time multiplayer co-editing, XLSX round-trip, and Docker deployment 🐳. |
-| **[Diwan](https://github.com/vul-os/diwan)** | [![GitHub stars](https://img.shields.io/github/stars/vul-os/diwan?style=social&color=white)](https://github.com/vul-os/diwan/stargazers) | Go / TypeScript / Yjs CRDT | MIT / Apache-2.0 | Single-binary self-hosted office suite featuring zero-cloud, peer-to-peer CRDT encrypted collaborative spreadsheets 🔒. |
-| **[AlephGrid](https://github.com/alephgrid/alephgrid)** | [![GitHub stars](https://img.shields.io/github/stars/alephgrid/alephgrid?style=social&color=white)](https://github.com/alephgrid/alephgrid/stargazers) | Rust / DuckDB / React | AGPL-3.0 | High-performance open-source spreadsheet engineered for billions of rows using embedded DuckDB compute 🦀. |
-| **[Rowflare](https://github.com/rowflare-oss/rowflare)** | [![GitHub stars](https://img.shields.io/github/stars/rowflare-oss/rowflare?style=social&color=white)](https://github.com/rowflare-oss/rowflare/stargazers) | TypeScript / Cloudflare Workers | MIT | Lightweight Airtable alternative designed to run on Cloudflare Durable Objects and SQLite or self-hosted Docker ⚡. |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | Node.js / Vue.js / TypeScript | AGPL-3.0 | Turns any relational database (PostgreSQL, MySQL, SQLite, SQL Server) into a collaborative smart spreadsheet 🗄️. |
+| **[Nextcloud Server (Office)](https://github.com/nextcloud/server)** | [![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | PHP / JavaScript / Collabora | AGPL-3.0 | Self-hosted sovereign productivity suite with full spreadsheet editing, file sharing, and role-based permissions ☁️. |
+| **[Univer](https://github.com/dream-num/univer)** | [![GitHub_Stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers) | TypeScript / Canvas / React | Apache-2.0 | Extensible open-source office engine powering high-performance collaborative spreadsheets, docs, and slides ⚡. |
+| **[Teable](https://github.com/teableio/teable)** | [![GitHub_Stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Super-fast real-time collaborative no-code database built natively on PostgreSQL with full spreadsheet fidelity 🚀. |
+| **[Grist Core](https://github.com/gristlabs/grist-core)** | [![GitHub_Stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers) | Python / TypeScript / SQLite | Apache-2.0 | Modern relational spreadsheet with full Python formula support, granular access control, and self-hosted privacy 🐍. |
+| **[ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)** | [![GitHub_Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | C++ / JavaScript / Node.js | AGPL-3.0 | Enterprise-grade online office suite offering high-fidelity XLSX collaborative spreadsheet co-editing 🏢. |
+| **[Baserow](https://github.com/baserow/baserow)** | [![GitHub_Stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | Python / Django / Vue.js | MIT (Open-Core) | Open-source no-code database and Airtable alternative with unlimited rows and enterprise compliance 🗃️. |
+| **[Collabora Online](https://github.com/CollaboraOnline/online)** | [![GitHub_Stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers) | C++ / JavaScript | MPL-2.0 | Powerful collaborative online office suite based on LibreOffice technology, supporting Calc spreadsheets 📝. |
+| **[EtherCalc](https://github.com/audreyt/ethercalc)** | [![GitHub_Stars](https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white)](https://github.com/audreyt/ethercalc/stargazers) | JavaScript / Node.js / Redis | CPAL-1.0 | Pioneer real-time collaborative web spreadsheet where multiple users can simultaneously edit cells 🧮. |
+| **[Casual Sheets](https://github.com/CasualOffice/sheets)** | [![GitHub_Stars](https://img.shields.io/github/stars/CasualOffice/sheets?style=social&color=white)](https://github.com/CasualOffice/sheets/stargazers) | TypeScript / Univer OSS / Fastify | Apache-2.0 | Excel-flavored web spreadsheet with real-time multiplayer co-editing, XLSX round-trip, and Docker deployment 🐳. |
+| **[Diwan](https://github.com/vul-os/diwan)** | [![GitHub_Stars](https://img.shields.io/github/stars/vul-os/diwan?style=social&color=white)](https://github.com/vul-os/diwan/stargazers) | Go / TypeScript / Yjs CRDT | MIT / Apache-2.0 | Single-binary self-hosted office suite featuring zero-cloud, peer-to-peer CRDT encrypted collaborative spreadsheets 🔒. |
+| **[AlephGrid](https://github.com/alephgrid/alephgrid)** | [![GitHub_Stars](https://img.shields.io/github/stars/alephgrid/alephgrid?style=social&color=white)](https://github.com/alephgrid/alephgrid/stargazers) | Rust / DuckDB / React | AGPL-3.0 | High-performance open-source spreadsheet engineered for billions of rows using embedded DuckDB compute 🦀. |
+| **[Rowflare](https://github.com/rowflare-oss/rowflare)** | [![GitHub_Stars](https://img.shields.io/github/stars/rowflare-oss/rowflare?style=social&color=white)](https://github.com/rowflare-oss/rowflare/stargazers) | TypeScript / Cloudflare Workers | MIT | Lightweight Airtable alternative designed to run on Cloudflare Durable Objects and SQLite or self-hosted Docker ⚡. |
 
 ---
 
 ### 🔬 Repository Details
 
 #### 🗄️ [NocoDB](https://github.com/nocodb/nocodb)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)
 - **🛠️ Stack:** Node.js / Vue.js / SQL databases | **⚖️ License:** AGPL-3.0
 - **💡 Highlights:** Turns any existing SQL database into a collaborative smart spreadsheet. Provides auto-generated REST/GraphQL APIs, grid, gallery, kanban, and form views, and virtual columns (formulas, rollups, lookups) without modifying raw database schemas.
 
 #### ☁️ [Nextcloud Server (Office)](https://github.com/nextcloud/server)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
 - **🛠️ Stack:** PHP / JavaScript / Collabora / EuroOffice | **⚖️ License:** AGPL-3.0
 - **💡 Highlights:** Full-featured sovereign collaboration platform. The integrated spreadsheet module delivers complete `.xlsx` and `.ods` file fidelity, multi-cursor real-time co-authoring, formula computations, granular ACLs, and federation across private servers.
 
 #### ⚡ [Univer](https://github.com/dream-num/univer)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers)
 - **🛠️ Stack:** TypeScript / React / Canvas API | **⚖️ License:** Apache-2.0
 - **💡 Highlights:** Successor to Luckysheet. Full-stack office engine engineered with canvas rendering for blazing speed even with massive datasets. Supports formulas, conditional formatting, real-time collaboration, and headless spreadsheet execution.
 
 #### 🚀 [Teable](https://github.com/teableio/teable)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers)
 - **🛠️ Stack:** TypeScript / Next.js / PostgreSQL | **⚖️ License:** AGPL-3.0
 - **💡 Highlights:** High-performance, real-time Airtable alternative built natively on PostgreSQL. Supports millions of rows without degradation, SQL querying capabilities, virtual scrolling, fine-grained access management, and automated workflows.
 
 #### 🐍 [Grist Core](https://github.com/gristlabs/grist-core)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers)
 - **🛠️ Stack:** Python / TypeScript / SQLite | **⚖️ License:** Apache-2.0
 - **💡 Highlights:** An innovative hybrid of spreadsheet agility and relational database integrity. Utilizes real Python syntax for formulas, custom view layouts, automated link filtering between tables, and complete data sovereignty.
 
 #### 🏢 [ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers)
 - **🛠️ Stack:** C++ / JavaScript / Node.js | **⚖️ License:** AGPL-3.0
 - **💡 Highlights:** Industry-grade document editing suite with 100% native OOXML (`.xlsx`) compatibility. Features real-time co-authoring modes (fast character-by-character and strict paragraph-locking), track changes, macros, and extensive plugin support.
 
 #### 🗃️ [Baserow](https://github.com/baserow/baserow)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers)
 - **🛠️ Stack:** Python / Django / Vue.js / PostgreSQL | **⚖️ License:** MIT (Open-Core)
 - **💡 Highlights:** Mature database-spreadsheet application with Kanban, calendar, and gallery views, no-code application and customer portal builder, AI Assistant integrations, and SOC 2 / GDPR compliance for self-hosted instances.
 
 #### 📝 [Collabora Online](https://github.com/CollaboraOnline/online)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers)
 - **🛠️ Stack:** C++ / JavaScript / HTML5 Canvas | **⚖️ License:** MPL-2.0
 - **💡 Highlights:** Cloud-ready office suite built on LibreOffice technology. Provides rich spreadsheet editing with deep Calc formula and charting support, embedded WOPI integration, and enterprise document protection.
 
 #### 🧮 [EtherCalc](https://github.com/audreyt/ethercalc)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white)](https://github.com/audreyt/ethercalc/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white)](https://github.com/audreyt/ethercalc/stargazers)
 - **🛠️ Stack:** JavaScript / Node.js / Redis | **⚖️ License:** CPAL-1.0
 - **💡 Highlights:** Lightweight web spreadsheet with instant multiplayer co-editing over WebSockets. Developed by open-source pioneer Audrey Tang, EtherCalc requires zero account creation and minimal computing resources.
 
 #### 🐳 [Casual Sheets](https://github.com/CasualOffice/sheets)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/CasualOffice/sheets?style=social&color=white)](https://github.com/CasualOffice/sheets/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/CasualOffice/sheets?style=social&color=white)](https://github.com/CasualOffice/sheets/stargazers)
 - **🛠️ Stack:** TypeScript / Univer OSS / Fastify / Redis | **⚖️ License:** Apache-2.0
 - **💡 Highlights:** Dedicated Excel-like web spreadsheet focused on `.xlsx` / `.ods` / `.csv` round-trip fidelity, live cursors, presence avatars, pivot tables, sparklines, and view-only permissions inside a lightweight Docker container.
 
 #### 🔒 [Diwan](https://github.com/vul-os/diwan)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/vul-os/diwan?style=social&color=white)](https://github.com/vul-os/diwan/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/vul-os/diwan?style=social&color=white)](https://github.com/vul-os/diwan/stargazers)
 - **🛠️ Stack:** Go / TypeScript / Yjs CRDT | **⚖️ License:** MIT / Apache-2.0
 - **💡 Highlights:** Single Go binary containing an entire embedded office suite. Delivers peer-to-peer end-to-end encrypted collaboration where sheets utilize CRDTs and server processes remain completely content-blind.
 
 #### 🦀 [AlephGrid](https://github.com/alephgrid/alephgrid)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/alephgrid/alephgrid?style=social&color=white)](https://github.com/alephgrid/alephgrid/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/alephgrid/alephgrid?style=social&color=white)](https://github.com/alephgrid/alephgrid/stargazers)
 - **🛠️ Stack:** Rust / DuckDB / React | **⚖️ License:** AGPL-3.0
 - **💡 Highlights:** Ultra-scale analytical spreadsheet built for big data. Leverages embedded DuckDB for fast vector execution, SQL formula querying, disk spilling for multi-gigabyte files, and AI agent integration via MCP.
 
 #### ⚡ [Rowflare](https://github.com/rowflare-oss/rowflare)
-- **⭐ GitHub:** [![GitHub stars](https://img.shields.io/github/stars/rowflare-oss/rowflare?style=social&color=white)](https://github.com/rowflare-oss/rowflare/stargazers)
+- **⭐ GitHub:** [![GitHub_Stars](https://img.shields.io/github/stars/rowflare-oss/rowflare?style=social&color=white)](https://github.com/rowflare-oss/rowflare/stargazers)
 - **🛠️ Stack:** TypeScript / Cloudflare Workers / SQLite | **⚖️ License:** MIT
 - **💡 Highlights:** Cloudflare-native Airtable alternative running each base on isolated SQLite Durable Objects. Can be hosted globally at edge latency for ~$5/month or containerized with Docker.
 
@@ -243,7 +243,7 @@ To propose additions or corrections:
 2. Ensure the proposed project is actively maintained (active commits/releases within the past 12 months).
 3. Open a Pull Request following this format:
    - Tool Name and hyperlinked repository/website URL
-   - Exact Stack, License, and GitHub repository (with star badge)
+   - Exact Stack, License, and GitHub repository (with Stars_Badge)
    - Specific differentiation and primary use-case
 
 ---
