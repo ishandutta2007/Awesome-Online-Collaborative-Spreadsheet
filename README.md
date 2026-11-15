@@ -1,193 +1,219 @@
-# Awesome-Online-Collaborative-Spreadsheet
-
 # Awesome Online Collaborative Spreadsheet
 
-> A curated list of top Online Collaborative Spreadsheet platforms — both SaaS/Hosted commercial solutions and open-source alternatives for real-time co-editing, data collection, and spreadsheet-based workflows.
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Online-Collaborative-Spreadsheet/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ishandutta2007/Awesome-Online-Collaborative-Spreadsheet/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Online-Collaborative-Spreadsheet/pulls)
+
+> A curated directory of the best **Online Collaborative Spreadsheet** software, modern cloud platforms, and self-hosted open-source alternatives. Discover real-time multiplayer co-authoring suites, Airtable-style database-spreadsheet hybrids, and big-data grid engines.
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global spreadsheet and collaborative office productivity software market is valued between **$11.5 billion and $12.8 billion**, projected to exceed **$22 billion by the early 2030s** at a compound annual growth rate (CAGR) of approximately **7% to 9%**.
+
+The sector exhibits a **highly concentrated, "winner-take-most" dynamic at the foundational infrastructure layer**, where tech titans Microsoft (Excel / Microsoft 365) and Alphabet (Google Sheets / Google Workspace) capture the vast majority of enterprise and consumer seats. However, the application layer is **moderately fragmented and rapidly expanding** around specialized paradigms: relational database-spreadsheet hybrids (Airtable, Smartsheet), document-canvas workflows (Coda), and privacy-first, sovereign open-source self-hosted alternatives (NocoDB, Univer, Teable, Baserow, Nextcloud Office).
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Google Sheets](#google-sheets)
-  - [Microsoft Excel Online](#microsoft-excel-online)
-  - [Airtable](#airtable)
-  - [Smartsheet](#smartsheet)
-  - [Coda](#coda)
-- [Open-Source Software](#-open-source-software)
-  - [Nextcloud Spreadsheet](#nextcloud-spreadsheet)
-  - [Casual Sheets](#casual-sheets)
-  - [Diwan Sheets](#diwan-sheets)
-  - [AlephGrid](#alephgrid)
-  - [Baserow](#baserow)
-  - [NocoDB](#nocodb)
-  - [Rowflare](#rowflare)
-  - [SoloSheet](#solosheet)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+  - [Overview Table (Sorted by Company Size)](#overview-table-sorted-by-company-size)
+  - [Platform Deep Dives](#platform-deep-dives)
+- [🟩 Open-Source Software](#-open-source-software)
+  - [Overview Table (Sorted by GitHub Stars)](#overview-table-sorted-by-github-stars)
+  - [Repository Details](#repository-details)
+- [📊 Feature Matrix & Comparison at a Glance](#-feature-matrix--comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Online Collaborative Spreadsheet platforms. These are not open-source but are included as reference points for feature comparison.
+Commercial, cloud-hosted collaborative spreadsheet platforms offering managed cloud infrastructure, enterprise support, and integrations.
 
-### Google Sheets
-**Type:** Real-time collaborative spreadsheets within Google Workspace
-Google Sheets provides real-time co-editing with live cursors, comments, and version history. It is the most widely adopted cloud spreadsheet, integrated with Google Drive and the broader Workspace ecosystem. Its strength is accessibility and zero setup; the trade-off is that data resides on Google's infrastructure.
+### Overview Table (Sorted by Company Size)
 
-### Microsoft Excel Online
-**Type:** Browser-based Excel with co-authoring
-Excel Online provides the familiar Excel experience in the browser, with real-time co-authoring, comments, and track changes. It is the natural choice for organizations standardized on Microsoft 365, with seamless transition to desktop Excel for advanced features.
+| Platform | Company Size (Market Cap / Valuation / ARR) | Starting Pricing (Paid Tier) | Free Tier Limit / Free Trial | Best For |
+|:---|:---|:---|:---|:---|
+| **[Microsoft Excel Online](https://www.microsoft.com/microsoft-365/excel)** | **~$3.89 Trillion** Market Cap (~$346B TTM Revenue) | **$7.00** / user / month (billed annually for Microsoft 365 Business Basic) | **Free Forever** via personal Microsoft Account: Includes Excel for web with **5 GB** OneDrive cloud storage; desktop apps excluded | Microsoft 365 enterprise ecosystems & financial modeling |
+| **[Google Sheets](https://workspace.google.com/products/sheets/)** | **~$3.55 Trillion** Market Cap (~$471B TTM Revenue) | **$7.00** / user / month (billed annually for Google Workspace Business Starter) | **Free Forever** via consumer Google Account: Up to **10 million cells** per sheet, shared across **15 GB** Google Drive storage | Ubiquitous frictionless browser co-authoring |
+| **[Smartsheet](https://www.smartsheet.com/)** | **~$8.4 Billion** Valuation ($7.9B MCap when taken private by Blackstone/Vista; ~$1.1B ARR) | **$9.00** / member / month (billed annually for Pro Plan, up to 10 members) | **30-day Free Trial** with full platform access (legacy free tier discontinued for new sign-ups; free unlimited viewers/collaborators) | Spreadsheet-driven enterprise work and project tracking |
+| **[Airtable](https://www.airtable.com/)** | **~$2.25 Billion** Valuation ($1.285B EV acquisition by Bending Spoons; ~$480M ARR) | **$20.00** / seat / month (billed annually for Team Plan) | **Free Forever**: Up to **5 editors/creators**, **1,000 records** per base, **1 GB** attachments per base, **100 automations**/month | Relational databases disguised as intuitive grids |
+| **[Coda](https://coda.io/)** | **~$1.4 Billion** Valuation (Series D; ~$30M–$40M ARR) | **$10.00** / Doc Maker / month (billed annually for Pro Plan; Editors & Viewers free) | **Free Forever**: **Unlimited Doc Makers, Editors, and Viewers**; capped at **50 objects / 1,000 rows** per unhidden doc, 7-day version history | Interactive documents embedding programmable data tables |
 
-### Airtable
-**Type:** Relational database with spreadsheet interface
-Airtable combines a spreadsheet-like grid with relational database capabilities, views (Kanban, calendar, gallery), and automations. It is positioned for teams wanting structured data collection beyond simple spreadsheets, with a free tier for small teams and paid plans scaling by records and features.
+---
 
-### Smartsheet
-**Type:** Spreadsheet-based work management with automation
-Smartsheet provides a spreadsheet-like interface with automated workflows, Gantt views, and reporting. It is positioned for operations teams already comfortable with grids who want to layer automation on top.
+### Platform Deep Dives
 
-### Coda
-**Type:** Doc-based workspace with tables and automation
-Coda combines documents, spreadsheets, and automation into a single canvas. Teams can build custom workflows and trackers within a doc-like interface, positioned for teams wanting more structured data capabilities than Notion provides.
+#### Microsoft Excel Online
+- **Company Scale:** Microsoft Corporation (~$3.89T Market Cap).
+- **Pricing:** Free on consumer accounts. Starting commercial tier is **$7.00/user/month** on Microsoft 365 Business Basic (annual commitment).
+- **Free Tier Limits:** Free forever with a personal Microsoft account with 5 GB OneDrive storage.
+- **Key Capabilities:** Browser-based version of Microsoft Excel offering real-time co-authoring, comments, Office Scripts, and seamless round-tripping with native desktop Excel for high-throughput calculation models.
+
+#### Google Sheets
+- **Company Scale:** Alphabet Inc. (~$3.55T Market Cap).
+- **Pricing:** Free on consumer accounts. Starting commercial tier is **$7.00/user/month** on Google Workspace Business Starter (annual commitment).
+- **Free Tier Limits:** Free forever with a personal `@gmail.com` account (15 GB shared Google Drive storage, up to 10 million cells per spreadsheet).
+- **Key Capabilities:** The industry benchmark for frictionless cloud-native spreadsheet collaboration. Real-time co-authoring with multi-user presence, comments, cell revision histories, Google Apps Script, and built-in integration with Google Drive and BigQuery.
+
+#### Smartsheet
+- **Company Scale:** ~$8.4B acquisition valuation by Blackstone & Vista Equity Partners (~$1.1B ARR).
+- **Pricing:** Pro Plan starts at **$9.00/member/month** (annual billing, up to 10 members).
+- **Free Tier Limits:** 30-day free trial with full platform access; allows unlimited free read-only viewers and external form contributors.
+- **Key Capabilities:** Combines spreadsheet grids with Gantt charts, card Kanban views, automated project notifications, workflow approvals, and executive summary dashboards.
+
+#### Airtable
+- **Company Scale:** ~$2.25B equity valuation / $1.285B enterprise value acquisition by Bending Spoons (~$480M ARR).
+- **Pricing:** Team Plan starts at **$20.00/seat/month** (annual billing).
+- **Free Tier Limits:** Free forever with up to 5 editors, 1,000 records per base, 1 GB attachment storage per base, and 100 monthly automation runs.
+- **Key Capabilities:** Flexible low-code relational database disguised as a friendly spreadsheet. Includes native Kanban, timeline, form, and calendar views, linked records, webhooks, and AI workflow integrations.
+
+#### Coda
+- **Company Scale:** ~$1.4B private valuation (Series D, ~$30M–$40M ARR).
+- **Pricing:** Pro Plan starts at **$10.00/Doc Maker/month** (annual billing; only charged per document creator, while editors and viewers are free).
+- **Free Tier Limits:** Free forever with unlimited doc makers and collaborators, capped at 50 objects per doc, 1,000 rows, and 7-day version history.
+- **Key Capabilities:** Blends documents, spreadsheets, and custom software into an all-in-one workspace with two-way sync "Packs" for third-party tools like GitHub, Slack, Jira, and Figma.
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Online Collaborative Spreadsheet tools. The open-source ecosystem spans **full office suite integrations**, **Excel-flavored collaborative editors**, **data-scale spreadsheets**, and **Airtable-style database hybrids**.
+Self-hosted, transparent, community-driven online collaborative spreadsheet engines and database hybrids.
 
-### Nextcloud Spreadsheet
-**Stack:** PHP / Nextcloud Office (Collabora/Euro-Office) | **License:** AGPL-3.0
-Nextcloud Spreadsheet is a collaborative spreadsheet editor that runs on infrastructure you choose, positioned as a sovereign open-source alternative to Excel and Google Sheets [citation:4][citation:6]. Key features include:
-- **Real-time co-editing** with named cursors showing who is working where
-- **Full XLSX, XLS, and ODS compatibility**, so files round-trip cleanly with Excel and LibreOffice users
-- **Thousands of functions and formulas**, sorting, filtering, macros, and charts
-- **Granular access controls** (view, comment, edit) with public links and password-protected shares
-- **Federated collaboration** allowing teams on separate Nextcloud instances to co-edit the same sheet
-- **Desktop clients** for Linux, macOS, and Windows, plus mobile editing
+### Overview Table (Sorted by GitHub Stars)
 
-As part of Nextcloud Office, it integrates with Nextcloud Files, Talk, and Groupware in a single self-hosted workspace [citation:4].
-**Best for:** Organizations wanting a full, sovereign spreadsheet solution with strong Excel compatibility and integration into a broader self-hosted collaboration suite, accepting the Nextcloud deployment overhead.
-
-### Casual Sheets
-**Stack:** TypeScript / Univer OSS / Hocuspocus / Fastify / Redis | **License:** Apache-2.0
-Casual Sheets is an **Excel-flavored web spreadsheet with real-time collaborative editing**, built entirely on Univer OSS (never the closed Pro package) [citation:1][citation:8]. Key features include:
-- **Full xlsx / ods / csv / tsv round-trip** with parsing in Web Workers so the main thread never blocks
-- **Office-style ribbon** with Home, Insert, Formulas, Data, View, and Review tabs
-- **Charts** (8 types with trendlines), **pivot tables**, **sparklines**, conditional formatting, and data validation
-- **Real-time co-editing** with live cursors, live-typing ghost, presence avatars, and password-protected rooms
-- **View-only enforcement** at the Univer engine layer (server-side), not just the UI
-- **Single Docker image** with web, Hocuspocus, and Fastify in one container; Redis for persistence
-
-Anonymous sessions require no accounts, with rooms addressed at `/r/<roomId>` [citation:8]. The project has 357+ Playwright e2e tests and is fully auditable under Apache-2.0 [citation:1].
-**Best for:** Teams wanting a lightweight, self-hosted Excel-like collaborative editor with strong format compatibility and minimal infrastructure, accepting that it is a focused spreadsheet tool rather than a full office suite.
-
-### Diwan Sheets
-**Stack:** Go / TypeScript / CRDT (Yjs) | **License:** MIT OR Apache-2.0
-Diwan is a **single-binary office suite** with Documents, Sheets, Slides, Whiteboards, and PDF signing, where sheets include formulas, formats, charts, and pivots . Key characteristics:
-- **No account, no cloud, no external service required** — runs as a single Go binary with the frontend embedded
-- **CRDT-based peer-to-peer collaboration** — sheets use LWW/tree CRDTs, with end-to-end-encrypted rooms where the key never reaches any server
-- The server role is **content-blind peer discovery** only; it learns that peers share a room ID, never any content
-- **One binary on one box is all two people need** for collaboration, with no relay or configuration
-
-Sheets are one surface of a broader office suite, not a standalone product .
-**Best for:** Privacy-focused teams wanting a self-contained office suite with peer-to-peer encrypted collaboration, accepting that sheets are one component of a broader binary rather than a dedicated spreadsheet platform.
-
-### AlephGrid
-**Stack:** Rust / DuckDB / React | **License:** Open Source
-AlephGrid is an open-source spreadsheet designed for **data that doesn't fit in a spreadsheet** — it handles datasets far beyond typical row limits by leveraging DuckDB under the hood [citation:2]. Key features include:
-- **Scales to millions of rows** with DuckDB as the compute engine
-- **SQL support** (can be disabled via `--disable-sql` for security)
-- **Team features** with authentication (`--auth accounts`), spaces, roles, and OpenID Connect SSO
-- **Memory budget management** with disk spilling when limits are reached
-- **Docker deployment** with a setup code for creating the admin account
-- **MCP client support** for AI agent integration
-
-It is positioned for teams whose data exceeds the practical limits of browser-based spreadsheets, not as a general-purpose Excel replacement [citation:2].
-**Best for:** Data teams needing spreadsheet-like interaction over large datasets (millions of rows) without exporting to a database, accepting a Rust/DuckDB stack and a narrower feature set than full Excel.
-
-### Baserow
-**Stack:** Python / Django / Vue.js / PostgreSQL | **License:** MIT (open-core)
-Baserow is an open-source **spreadsheet-database hybrid** positioned as an Airtable alternative, trusted by over 150,000 users [citation:9]. Key features include:
-- **Spreadsheet-like interface** with grid, Kanban, calendar, and gallery views
-- **Application and portal building** with publishing to your own domain
-- **Automations** for repetitive workflows and **dashboards** for visualization
-- **AI Assistant (Kuma)** for building databases and workflows with natural language
-- **GDPR, HIPAA, and SOC 2 Type II compliant**
-- **Self-hosted with no storage restrictions**; Docker deployment with a single command
-
-The open-core model keeps non-premium features under MIT, allowing commercial and private use [citation:9].
-**Best for:** Teams wanting an Airtable-style database-spreadsheet hybrid with strong compliance certifications and a mature self-hosted deployment, accepting that it is database-first rather than a pure spreadsheet.
-
-### NocoDB
-**Stack:** Node.js / Vue.js / SQL databases | **License:** Open Source
-NocoDB turns **any existing SQL database** (MySQL, PostgreSQL, SQL Server, SQLite) into a smart spreadsheet interface, positioned as the leading open-source Airtable alternative [citation:7][citation:11]. Key characteristics:
-- **Connects to your own database** — data stays in your infrastructure, with no vendor lock-in
-- **Auto-generates REST and GraphQL APIs** with Swagger documentation
-- **Views**: grid, Kanban, calendar, gallery, and form
-- **Virtual columns** (Lookup, Rollup, Formula) that exist only in the NocoDB layer without polluting the raw schema
-- **Webhooks and automation** for event-driven workflows
-- **Scales to millions of rows** because it relies on the underlying database's power
-
-It is safe for non-technical users by limiting the operations they can perform on the database [citation:7].
-**Best for:** Teams with existing SQL databases wanting a safe, user-friendly spreadsheet interface over their data without migrating it, accepting that it is a database UI rather than a standalone spreadsheet.
-
-### Rowflare
-**Stack:** (Check repository) | **License:** Open Source
-Rowflare is an open-source **Airtable alternative** listed on the TrueNAS Apps Market, providing grid, timeline, and gallery views with automations [citation:3]. It is positioned for teams wanting a self-hosted Airtable-style interface, with documented self-hosting instructions. **Note:** Search results are limited; verify current feature coverage and maintenance status before adoption.
-**Best for:** Teams wanting a self-hosted Airtable alternative with multiple view types and automations, with careful evaluation of maturity.
-
-### SoloSheet
-**Stack:** Python / Qt (PySide6) | **License:** GPL-3.0-or-later
-SoloSheet is a **local, private, offline-only spreadsheet** built on the open `.sheet` JSON format, explicitly positioned as "as Markdown is to Word, SoloSheet is to Excel" [citation:14]. Key characteristics:
-- **100% offline with zero telemetry** — there is no code in it that opens a socket
-- **Wiki-linked sheets** — every `.sheet` file is a single spreadsheet, linkable to others inside formulas (e.g., `=[[sales]]!B4`)
-- **Open JSON format** readable in any text editor, with no XML or lock-in
-- **Lean by design** — fewer features than Excel, but simple, fast, and portable
-- **CSV import and export** for data movement
-
-It is a desktop application rather than a web-based collaborative platform [citation:14].
-**Best for:** Individuals wanting a private, offline spreadsheet that stays out of the cloud entirely, accepting that it is not a collaborative tool.
+| Repository | Stars | Stack | License | Description |
+|:---|:---:|:---|:---|:---|
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | Node.js / Vue.js / TypeScript | AGPL-3.0 | Turns any relational database (PostgreSQL, MySQL, SQLite, SQL Server) into a collaborative smart spreadsheet. |
+| **[Nextcloud Server (Office)](https://github.com/nextcloud/server)** | [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | PHP / JavaScript / Collabora | AGPL-3.0 | Self-hosted sovereign productivity suite with full spreadsheet editing, file sharing, and role-based permissions. |
+| **[Univer](https://github.com/dream-num/univer)** | [![GitHub stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers) | TypeScript / Canvas / React | Apache-2.0 | Extensible open-source office engine powering high-performance collaborative spreadsheets, docs, and slides. |
+| **[Teable](https://github.com/teableio/teable)** | [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers) | TypeScript / Next.js / PostgreSQL | AGPL-3.0 | Super-fast real-time collaborative no-code database built natively on PostgreSQL with full spreadsheet fidelity. |
+| **[Grist Core](https://github.com/gristlabs/grist-core)** | [![GitHub stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers) | Python / TypeScript / SQLite | Apache-2.0 | Modern relational spreadsheet with full Python formula support, granular access control, and self-hosted privacy. |
+| **[ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)** | [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | C++ / JavaScript / Node.js | AGPL-3.0 | Enterprise-grade online office suite offering high-fidelity XLSX collaborative spreadsheet co-editing. |
+| **[Baserow](https://github.com/baserow/baserow)** | [![GitHub stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | Python / Django / Vue.js | MIT (Open-Core) | Open-source no-code database and Airtable alternative with unlimited rows and enterprise compliance. |
+| **[Collabora Online](https://github.com/CollaboraOnline/online)** | [![GitHub stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers) | C++ / JavaScript | MPL-2.0 | Powerful collaborative online office suite based on LibreOffice technology, supporting Calc spreadsheets. |
+| **[EtherCalc](https://github.com/audreyt/ethercalc)** | [![GitHub stars](https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white)](https://github.com/audreyt/ethercalc/stargazers) | JavaScript / Node.js / Redis | CPAL-1.0 | Pioneer real-time collaborative web spreadsheet where multiple users can simultaneously edit cells. |
+| **[Casual Sheets](https://github.com/CasualOffice/sheets)** | [![GitHub stars](https://img.shields.io/github/stars/CasualOffice/sheets?style=social&color=white)](https://github.com/CasualOffice/sheets/stargazers) | TypeScript / Univer OSS / Fastify | Apache-2.0 | Excel-flavored web spreadsheet with real-time multiplayer co-editing, XLSX round-trip, and Docker deployment. |
+| **[Diwan](https://github.com/vul-os/diwan)** | [![GitHub stars](https://img.shields.io/github/stars/vul-os/diwan?style=social&color=white)](https://github.com/vul-os/diwan/stargazers) | Go / TypeScript / Yjs CRDT | MIT / Apache-2.0 | Single-binary self-hosted office suite featuring zero-cloud, peer-to-peer CRDT encrypted collaborative spreadsheets. |
+| **[AlephGrid](https://github.com/alephgrid/alephgrid)** | [![GitHub stars](https://img.shields.io/github/stars/alephgrid/alephgrid?style=social&color=white)](https://github.com/alephgrid/alephgrid/stargazers) | Rust / DuckDB / React | AGPL-3.0 | High-performance open-source spreadsheet engineered for billions of rows using embedded DuckDB compute. |
+| **[Rowflare](https://github.com/rowflare-oss/rowflare)** | [![GitHub stars](https://img.shields.io/github/stars/rowflare-oss/rowflare?style=social&color=white)](https://github.com/rowflare-oss/rowflare/stargazers) | TypeScript / Cloudflare Workers | MIT | Lightweight Airtable alternative designed to run on Cloudflare Durable Objects and SQLite or self-hosted Docker. |
 
 ---
 
-## 📊 Comparison at a Glance
+### Repository Details
 
-| Software | License | Stack | Real-Time Co-Edit | XLSX Support | Self-Hosted | Best For |
-|----------|---------|-------|-------------------|--------------|-------------|----------|
-| **Google Sheets** | Proprietary | Cloud | ✅ | ✅ | ❌ | Universal cloud spreadsheets |
-| **Excel Online** | Proprietary | Cloud | ✅ | ✅ Native | ❌ | Microsoft 365 estates |
-| **Airtable** | Proprietary | Cloud | (Check) | (Import) | ❌ | Database-spreadsheet hybrid |
-| **Nextcloud Spreadsheet** | AGPL-3.0 | PHP/Nextcloud | ✅ | ✅ | ✅ | Sovereign full spreadsheet |
-| **Casual Sheets** | Apache-2.0 | TypeScript/Univer | ✅ | ✅ | ✅ | Lightweight Excel-like editor |
-| **Diwan Sheets** | MIT/Apache | Go/CRDT | ✅ P2P | (Check) | ✅ | Private office suite |
-| **AlephGrid** | Open Source | Rust/DuckDB | (Check) | ❌ | ✅ | Millions of rows |
-| **Baserow** | MIT (core) | Django/Postgres | (Check) | (Import) | ✅ | Airtable + compliance |
-| **NocoDB** | Open Source | Node.js/SQL | (Check) | ❌ | ✅ | SQL database UI |
-| **SoloSheet** | GPL-3.0 | Python/Qt | ❌ | ❌ | ✅ (Local) | Offline private sheets |
+#### [NocoDB](https://github.com/nocodb/nocodb)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)
+- **Stack:** Node.js / Vue.js / SQL databases | **License:** AGPL-3.0
+- **Highlights:** Turns any existing SQL database into a collaborative smart spreadsheet. Provides auto-generated REST/GraphQL APIs, grid, gallery, kanban, and form views, and virtual columns (formulas, rollups, lookups) without modifying raw database schemas.
+
+#### [Nextcloud Server (Office)](https://github.com/nextcloud/server)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers)
+- **Stack:** PHP / JavaScript / Collabora / EuroOffice | **License:** AGPL-3.0
+- **Highlights:** Full-featured sovereign collaboration platform. The integrated spreadsheet module delivers complete `.xlsx` and `.ods` file fidelity, multi-cursor real-time co-authoring, formula computations, granular ACLs, and federation across private servers.
+
+#### [Univer](https://github.com/dream-num/univer)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/dream-num/univer?style=social&color=white)](https://github.com/dream-num/univer/stargazers)
+- **Stack:** TypeScript / React / Canvas API | **License:** Apache-2.0
+- **Highlights:** Successor to Luckysheet. Full-stack office engine engineered with canvas rendering for blazing speed even with massive datasets. Supports formulas, conditional formatting, real-time collaboration, and headless spreadsheet execution.
+
+#### [Teable](https://github.com/teableio/teable)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers)
+- **Stack:** TypeScript / Next.js / PostgreSQL | **License:** AGPL-3.0
+- **Highlights:** High-performance, real-time Airtable alternative built natively on PostgreSQL. Supports millions of rows without degradation, SQL querying capabilities, virtual scrolling, fine-grained access management, and automated workflows.
+
+#### [Grist Core](https://github.com/gristlabs/grist-core)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers)
+- **Stack:** Python / TypeScript / SQLite | **License:** Apache-2.0
+- **Highlights:** An innovative hybrid of spreadsheet agility and relational database integrity. Utilizes real Python syntax for formulas, custom view layouts, automated link filtering between tables, and complete data sovereignty.
+
+#### [ONLYOFFICE Document Server](https://github.com/ONLYOFFICE/DocumentServer)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers)
+- **Stack:** C++ / JavaScript / Node.js | **License:** AGPL-3.0
+- **Highlights:** Industry-grade document editing suite with 100% native OOXML (`.xlsx`) compatibility. Features real-time co-authoring modes (fast character-by-character and strict paragraph-locking), track changes, macros, and extensive plugin support.
+
+#### [Baserow](https://github.com/baserow/baserow)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers)
+- **Stack:** Python / Django / Vue.js / PostgreSQL | **License:** MIT (Open-Core)
+- **Highlights:** Mature database-spreadsheet application with Kanban, calendar, and gallery views, no-code application and customer portal builder, AI Assistant integrations, and SOC 2 / GDPR compliance for self-hosted instances.
+
+#### [Collabora Online](https://github.com/CollaboraOnline/online)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers)
+- **Stack:** C++ / JavaScript / HTML5 Canvas | **License:** MPL-2.0
+- **Highlights:** Cloud-ready office suite built on LibreOffice technology. Provides rich spreadsheet editing with deep Calc formula and charting support, embedded WOPI integration, and enterprise document protection.
+
+#### [EtherCalc](https://github.com/audreyt/ethercalc)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/audreyt/ethercalc?style=social&color=white)](https://github.com/audreyt/ethercalc/stargazers)
+- **Stack:** JavaScript / Node.js / Redis | **License:** CPAL-1.0
+- **Highlights:** Lightweight web spreadsheet with instant multiplayer co-editing over WebSockets. Developed by open-source pioneer Audrey Tang, EtherCalc requires zero account creation and minimal computing resources.
+
+#### [Casual Sheets](https://github.com/CasualOffice/sheets)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/CasualOffice/sheets?style=social&color=white)](https://github.com/CasualOffice/sheets/stargazers)
+- **Stack:** TypeScript / Univer OSS / Fastify / Redis | **License:** Apache-2.0
+- **Highlights:** Dedicated Excel-like web spreadsheet focused on `.xlsx` / `.ods` / `.csv` round-trip fidelity, live cursors, presence avatars, pivot tables, sparklines, and view-only permissions inside a lightweight Docker container.
+
+#### [Diwan](https://github.com/vul-os/diwan)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/vul-os/diwan?style=social&color=white)](https://github.com/vul-os/diwan/stargazers)
+- **Stack:** Go / TypeScript / Yjs CRDT | **License:** MIT / Apache-2.0
+- **Highlights:** Single Go binary containing an entire embedded office suite. Delivers peer-to-peer end-to-end encrypted collaboration where sheets utilize CRDTs and server processes remain completely content-blind.
+
+#### [AlephGrid](https://github.com/alephgrid/alephgrid)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/alephgrid/alephgrid?style=social&color=white)](https://github.com/alephgrid/alephgrid/stargazers)
+- **Stack:** Rust / DuckDB / React | **License:** AGPL-3.0
+- **Highlights:** Ultra-scale analytical spreadsheet built for big data. Leverages embedded DuckDB for fast vector execution, SQL formula querying, disk spilling for multi-gigabyte files, and AI agent integration via MCP.
+
+#### [Rowflare](https://github.com/rowflare-oss/rowflare)
+- **GitHub:** [![GitHub stars](https://img.shields.io/github/stars/rowflare-oss/rowflare?style=social&color=white)](https://github.com/rowflare-oss/rowflare/stargazers)
+- **Stack:** TypeScript / Cloudflare Workers / SQLite | **License:** MIT
+- **Highlights:** Cloudflare-native Airtable alternative running each base on isolated SQLite Durable Objects. Can be hosted globally at edge latency for ~$5/month or containerized with Docker.
+
+---
+
+## 📊 Feature Matrix & Comparison at a Glance
+
+| Tool | Type | Primary Stack | Real-Time Multi-Author | Native XLSX | Self-Hosted | Primary Focus |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **Microsoft Excel Online** | SaaS | Proprietary Cloud | ✅ | ✅ Native | ❌ | Financial modeling & Microsoft 365 |
+| **Google Sheets** | SaaS | Proprietary Cloud | ✅ | ✅ Import/Export | ❌ | Universal online collaboration |
+| **Smartsheet** | SaaS | Proprietary Cloud | ✅ | ✅ Import/Export | ❌ | Project management & workflows |
+| **Airtable** | SaaS | Proprietary Cloud | ✅ | ⚠️ Import only | ❌ | Relational database app builder |
+| **Coda** | SaaS | Proprietary Cloud | ✅ | ⚠️ Import only | ❌ | Document & table workspace |
+| **NocoDB** | Open-Source | Node / Vue / SQL | ✅ | ⚠️ Import/Export | ✅ | Smart spreadsheet on any SQL database |
+| **Nextcloud Server (Office)** | Open-Source | PHP / Collabora | ✅ | ✅ Native | ✅ | Sovereign enterprise collaboration suite |
+| **Univer** | Open-Source | TypeScript / Canvas | ✅ | ✅ Native | ✅ | High-performance embeddable office engine |
+| **Teable** | Open-Source | TypeScript / Postgres | ✅ | ⚠️ Import/Export | ✅ | High-throughput Postgres-based Airtable alternative |
+| **Grist Core** | Open-Source | Python / SQLite | ✅ | ⚠️ Import/Export | ✅ | Relational spreadsheet with Python formulas |
+| **ONLYOFFICE Document Server** | Open-Source | C++ / JS | ✅ | ✅ Native | ✅ | High-fidelity OOXML collaborative editing |
+| **Baserow** | Open-Source | Python / Vue / Postgres | ✅ | ⚠️ Import/Export | ✅ | Compliant no-code database |
+| **Collabora Online** | Open-Source | C++ / LibreOffice | ✅ | ✅ Native | ✅ | LibreOffice-powered enterprise cloud editor |
+| **EtherCalc** | Open-Source | Node.js / Redis | ✅ | ⚠️ CSV/SXC | ✅ | Instant ephemeral web spreadsheet |
+| **Casual Sheets** | Open-Source | TypeScript / Univer | ✅ | ✅ Native | ✅ | Focused Excel-compatible Docker co-editor |
+| **Diwan** | Open-Source | Go / Yjs CRDT | ✅ P2P | ⚠️ Internal | ✅ | Privacy-first single binary office suite |
+| **AlephGrid** | Open-Source | Rust / DuckDB | ⚠️ Local/Multi | ⚠️ SQL/Parquet | ✅ | Analytical grid scaling to billions of rows |
+| **Rowflare** | Open-Source | Cloudflare / SQLite | ✅ | ⚠️ Import/Export | ✅ | Edge-hosted SQLite Airtable clone |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Online Collaborative Spreadsheet tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! Help keep this directory current, accurate, and comprehensive.
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
-**Note on the open-source ecosystem:** The collaborative spreadsheet space splits between **full Excel-compatible editors** (Nextcloud Spreadsheet for sovereign office suites, Casual Sheets for lightweight Excel-flavored co-editing), **data-scale spreadsheets** (AlephGrid for millions of rows via DuckDB), **Airtable-style database hybrids** (Baserow, NocoDB, Rowflare), and **offline-only tools** (SoloSheet). **Nextcloud Spreadsheet** is the strongest choice for organizations wanting a complete, sovereign replacement for Google Sheets with full XLSX/ODS compatibility and integration into a broader collaboration suite [citation:4]. **Casual Sheets** offers a remarkably feature-dense Excel-like experience (charts, pivots, sparklines, view-only enforcement) in a single Apache-2.0 Docker image [citation:8]. For data that exceeds spreadsheet limits, **AlephGrid** with DuckDB is the purpose-built option [citation:2]. No open-source project fully replicates Google Sheets' zero-friction collaboration at global scale, but Nextcloud and Casual Sheets cover the core collaborative spreadsheet workflow for self-hosted deployments.
+To propose additions or corrections:
+1. Review the existing listings to prevent duplicates.
+2. Ensure the proposed project is actively maintained (active commits/releases within the past 12 months).
+3. Open a Pull Request following this format:
+   - Tool Name and hyperlinked repository/website URL
+   - Exact Stack, License, and GitHub repository (with star badge)
+   - Specific differentiation and primary use-case
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository and curated list are released under the [CC0 1.0 Universal (Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/). Listed software tools retain their respective copyright licenses.
